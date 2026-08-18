@@ -148,3 +148,6 @@ python -m pytest
 - Interrupted command: rerun it. Database upserts and unique indexes prevent duplicate imported records, open applications, and pending story submissions.
 - Database backup: close running commands and copy `data/medium_publisher.db` plus any `-wal`/`-shm` files together.
 - Full local reset: move `data/`, `artifacts/`, and `playwright-profile/` to a backup location, then run `python app.py init`. The browser profile contains local session state, so protect it like any signed-in browser profile.
+
+##  Credits
+Created by [Apnatva](https://apnatva.dev) for [Brownsmith Dynamics](https://brownsmithdynamics.com) 
